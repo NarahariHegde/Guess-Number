@@ -1,0 +1,56 @@
+body{
+    background-color: #e3dbdb;
+    width: 100vh;
+    height: 100vh;
+    z-index: -1;
+}
+
+.main{
+    width: 75%;
+    height: 30rem;
+    border: 1px solid;
+    margin: 15rem 50%;
+    z-index: 1;
+    background-color: #f2f2f2f2;
+    border-radius: 2.5em;
+    border-color: white;
+    box-shadow: 2px 1px 50px #151414;
+    max-height: 50rem;
+}
+.inp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20%;
+}
+.inp button{
+    width: 9rem;
+    height: 3rem;
+    border-color: rgba(7, 7, 164, 0.763);
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+.inp input{
+    width: 15rem;
+    height: 2.9rem;
+    border-color: rgba(7, 7, 164, 0.763);
+        background-color: white;
+        color: blue;
+        border-radius: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.msg{
+    color:rgba(255, 0, 0, 0.721);
+    background: rgba(192, 66, 66, 0.708);
+    background-color: rgba(84, 84, 220, 0.553);
+}
+.steps span{
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+.steps{
+margin: 10% 15%;
+}
